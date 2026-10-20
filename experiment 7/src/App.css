@@ -1,0 +1,39 @@
+
+/* Fix text visibility and form styling */
+body {
+  color: #1e293b;
+  background-color: #f1f5f9;
+}
+
+.form-box h2,
+.notes-section h2,
+.note-card h3 {
+  color: #1e293b;
+}
+
+input,
+textarea {
+  background-color: #ffffff;
+  color: #1e293b;
+  border: 1px solid #cbd5e1;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #64748b;
+  opacity: 1;
+}
+
+input:focus,
+textarea:focus {
+  outline: 2px solid #818cf8;
+  border-color: #4f46e5;
+}
+
+.empty {
+  color: #475569;
+}
+
+.note-card {
+  background-color: #ffffff;
+}
