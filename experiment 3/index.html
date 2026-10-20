@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1>My To-Do List</h1>
+        <p>Organize your day, one task at a time!</p>
+    </header>
+
+    <main class="container">
+        <section class="todo-card">
+            <h2>Manage Your Tasks</h2>
+
+            <form id="task-form">
+                <input
+                    type="text"
+                    id="task-input"
+                    placeholder="Enter a new task..."
+                    aria-label="New task"
+                    maxlength="200"
+                    required
+                >
+                <button type="submit" id="add-btn">Add Task</button>
+            </form>
+
+            <p id="task-count" aria-live="polite">0 tasks remaining</p>
+
+            <ul id="task-list" aria-label="To-do tasks"></ul>
+
+            <p id="empty-message">No tasks yet. Add your first task!</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Nishtha Singh | Dynamic To-Do List</p>
+    </footer>
+
+</body>
+</html>
